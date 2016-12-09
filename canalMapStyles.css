@@ -1,0 +1,154 @@
+.slick-dotted.slick-slider {
+    width: 411px;
+    height: 240px;
+}
+
+.slick-dots {
+    bottom: -38px;
+}
+
+.slick-slide {
+    width: 500px;
+}
+
+
+/*.slick-slide slick-current slick-active{
+  width: 100%;
+}*/
+
+#map {
+    height: 556px;
+}
+
+.map_and_info_container {
+    width: 100%;
+}
+
+.map_and_info_screen {
+    position: relative;
+    width: 74%;
+    display: inline-block;
+}
+
+.map_buttons {
+    position: relative;
+    padding-top: 19px;
+    max-width: 100%;
+}
+
+.map_button {
+    /*margin-bottom: 10px;*/
+    display: block;
+}
+
+.map_photos {
+    position: relative;
+    display: inline-block;
+    width: 37%;
+    margin-left: -19px;
+}
+
+.point-content {
+    display: inline-block;
+    width: 64%;
+}
+
+.slick-prev:before {
+    color: black;
+    /*content: url(http://72.47.236.233/~canalwebsite/wp-content/plugins/mapsPlugin/LeftArrow.png);*/
+}
+
+.slick-next:before {
+    color: black;
+    /*content: url(http://72.47.236.233/~canalwebsite/wp-content/plugins/mapsPlugin/RightArrow.png);*/
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 8px;
+    margin-left: 51px;
+}
+
+#info {
+    padding-top: 40px;
+    padding-left: 11px;
+    font-size: 13px;
+    font-style: italic;
+    /*background-color: #999999;*/
+}
+
+#point-info {
+    font-size: 16px;
+    width: 100%;
+}
+
+.slide_info {
+    max-width: 413px;
+    margin-left: 50px;
+}
+
+#slide_image {
+    height: 245px;
+    margin: auto;
+    width: 100%;
+}
+
+.map_toggle_pois {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.directions-box {
+    border-style: solid;
+}
+
+.directions {
+    margin: 0px;
+    font-size: 14px;
+    padding: 6px;
+    font-style: italic;
+}
+
+.canal-poi-toggle {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#border-select {
+    border-style: double;
+    border-color: black;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .map_toggle_pois {
+        width: 100%;
+        display: block;
+        vertical-align: top;
+    }
+    .map_and_info_screen {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .map_photos {
+        display: block;
+        width: 100%
+    }
+    .point-content {
+        display: block;
+    }
+    .slick-dotted.slick-slider {
+        margin-left: 0;
+    }
+    .slick-dotted.slick-slider {
+        width: 320px;
+        height: 240px;
+        left: 19px;
+    }
+    .slick-next{
+      display: none;
+    }
+    .slick-prev{
+      display: none;
+    }
+}
