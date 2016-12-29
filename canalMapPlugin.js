@@ -348,17 +348,16 @@ function initMap() {
       position: new google.maps.LatLng(mapData[i].latitude, mapData[i].longitude),
       map: map,
     });
-
     markers.push(marker);
     points.push(mapData[i]);
-    populateDictionary(mapData[i]);
+    populateDictionary(mapData[i], marker);
 
   }
   setMap();
 }
-function populateDictionary(mapdataPoint){
+function populateDictionary(mapdataPoint, marker){
   //loop over each mapdata object and add appropriate data to the dictionary
-  for (key in mapData.canalPoint) {
+  for (key in mapdataPoint.canalPoint) {
     if (mapdataPoint.canalPoint[key].name == 'Central Canal Complete') {
       canalPointKmlDictionary[0].markers.push(marker);
       canalPointKmlDictionary[0].points.push(mapdataPoint);
