@@ -11,4 +11,4 @@ new canals should not need to be added, but if something happens here is a guide
        Note that the indexes are the numbers corresponding to the indexes in the dictionary.
        So be sure that your index matches the index in the dictionary.
     4. Add the canal to the view all function
-    5, Add the canal button to view in the index html.
+    5. Add the canal button to view in the index html.
